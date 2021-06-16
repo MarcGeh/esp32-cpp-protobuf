@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package test;
+
+option optimize_for = LITE_RUNTIME;
+option cc_enable_arenas = false;
+
+message TestRequest {
+    string text = 1;
+    int32 index = 2;
+}
