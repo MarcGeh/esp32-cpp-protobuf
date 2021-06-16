@@ -22,7 +22,7 @@ In [main/main.cc](main/main.cc) you'll find an example serializing and deseriali
 8. Run `idf.py -p PORT flash monitor`. [See here](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/#step-9-flash-onto-the-device) for tips on how
 to find out the proper `PORT`.
 
-Currently the whole project will not compile with ESP-IDF 4.2.1 because an error which occurs during the generation of the binary:
+Currently the whole project will not compile with ESP-IDF 4.2.1 because of an error which occurs during the generation of the binary:
 
 ```
 A fatal error occurred: Contents of segment at SHA256 digest offset 0xb0 are not all zero. Refusing to overwrite.
